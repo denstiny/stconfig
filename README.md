@@ -1,2 +1,3 @@
-
-You can use Shift+PgUp/PgDn to do Page Up or Page Down.
+# [添加滚屏辅助]
+-- `<ALT>`+`u`/`d` 翻页
+-- `<ALT>`+`j`/`k` 上下滚动
