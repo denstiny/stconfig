@@ -25,7 +25,7 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 /* identification sequence returned in DA and DECID */
 char *vtiden = "\033[?6c";
 
-/* Kerning / character bounding-box multipliers */
+/* 字距调整/字符边界框乘法器*/
 static float cwscale = 1.0;
 static float chscale = 1.0;
 
@@ -155,11 +155,11 @@ unsigned int defaultunderline = 7;
 static unsigned int cursorstyle = 1;
 
 /*
- * Default columns and rows numbers
+ * 默认列数和行数
  */
 
-static unsigned int cols = 80;
-static unsigned int rows = 24;
+static unsigned int cols = 60;
+static unsigned int rows = 20;
 
 /*
  * Default colour and shape of the mouse cursor
