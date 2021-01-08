@@ -155,7 +155,7 @@ unsigned int defaultunderline = 7;
 static unsigned int cursorstyle = 1;
 
 /*
- * 默认列数和行数
+ * 默认列数和行数 窗口大小
  */
 
 static unsigned int cols = 60;
