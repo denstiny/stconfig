@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code Nerd Font Mono:pixelsize=23:antialias=true:autohint=true";
+static char *font = "Fira Code Nerd Font Mono:pixelsize=22:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -108,7 +108,7 @@ static const char *colorname[] = {
   [6] = "#8be9fd", /* cyan    */
   [7] = "#bbbbbb", /* white   */
 
-  /* 8 bright colors */
+  /* 8 明亮的 颜色 */
   [8]  = "#44475a", /* black   */
   [9]  = "#ff5555", /* red     */
   [10] = "#50fa7b", /* green   */
@@ -119,8 +119,8 @@ static const char *colorname[] = {
   [15] = "#ffffff", /* white   */
 
   /* 特殊颜色 */
-  [256] = "#282C34", /* background */
-  [257] = "#f8f8f2", /* foreground */
+  [256] = "#282A36", /* 背景颜色 */
+  [257] = "#93A1A1", /* 默认字体颜色 */
 };
 
 
@@ -158,8 +158,8 @@ static unsigned int cursorstyle = 1;
  * 默认列数和行数 窗口大小
  */
 
-static unsigned int cols = 60;
-static unsigned int rows = 20;
+static unsigned int cols = 50;
+static unsigned int rows = 15;
 
 /*
  * Default colour and shape of the mouse cursor

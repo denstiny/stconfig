@@ -2048,10 +2048,8 @@ usage(void)
 	    " [-n name] [-o file]\n"
 	    "          [-T title] [-t title] [-w windowid]"
 	    " [[-e] command [args ...]]\n"
-	    "       %s [-aiv] [-c class] [-f font] [-g geometry]"
-	    " [-n name] [-o file]\n"
-	    "          [-T title] [-t title] [-w windowid] -l line"
-	    " [stty_args ...]\n", argv0, argv0);
+	    "       %s [-aiv] [-c class] [-f font] [-g geometry]\n"
+	    " 看不懂？那这么跟你说把，-c 使用st执行bash命令\n -t设置st标题，然后额，我忘记了\n", argv0, argv0);
 }
 
 int
