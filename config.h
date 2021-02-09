@@ -5,7 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code Nerd Font Mono:pixelsize=22:antialias=true:autohint=true";
+static char *font = "FiraCode Nerd Font:pixelsize=22:antialias=true:autohint=true";
+
+
 static int borderpx = 2;
 
 /*
@@ -120,7 +122,7 @@ static const char *colorname[] = {
 
   /* 特殊颜色 */
   [256] = "#282A36", /* 背景颜色 */
-  [257] = "#93A1A1", /* 默认字体颜色 */
+  [257] = "#5C788E", /* 默认字体颜色 */
 };
 
 
