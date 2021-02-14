@@ -162,8 +162,8 @@ static unsigned int cursorshape = 0;
  * 默认列数和行数 窗口大小
  */
 
-static unsigned int cols = 50;
-static unsigned int rows = 15;
+static unsigned int cols = 80;
+static unsigned int rows = 18;
 
 /*
  * Default colour and shape of the mouse cursor
