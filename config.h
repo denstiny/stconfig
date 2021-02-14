@@ -154,8 +154,10 @@ unsigned int defaultunderline = 7;
  * 6: steady bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorstyle = 1;
-
+// 设置光标
+static unsigned int cursorstyle = 4;
+// 设置类型
+static unsigned int cursorshape = 0;
 /*
  * 默认列数和行数 窗口大小
  */
